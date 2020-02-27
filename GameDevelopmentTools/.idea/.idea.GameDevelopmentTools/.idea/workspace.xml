@@ -9,48 +9,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/Factory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <marker date="1582780976264" expanded="true" signature="6:91" ph="..." />
-                <marker date="1582780976264" expanded="true" signature="146:1039" ph="{...}" />
-                <marker date="1582780976264" expanded="true" signature="192:1037" ph="{...}" />
-                <marker date="1582780976264" expanded="true" signature="318:739" ph="{...}" />
-                <marker date="1582780976264" expanded="true" signature="536:729" ph="{...}" />
-                <marker date="1582780976264" expanded="true" signature="647:715" ph="{...}" />
-                <marker date="1582780976264" expanded="true" signature="785:1031" ph="{...}" />
-                <marker date="1582780976264" expanded="true" signature="830:956" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/ObjectTypeAttribute.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-              <folding>
-                <marker date="1582780590378" expanded="true" signature="68:262" ph="{...}" />
-                <marker date="1582780590378" expanded="true" signature="118:260" ph="{...}" />
-                <marker date="1582780590378" expanded="true" signature="218:254" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/Factory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/ObjectTypeAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,6 +20,7 @@
         <option value="$PROJECT_DIR$/Assets/Tools/Pool.cs" />
         <option value="$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/ObjectTypeAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/Factory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Framework/Avocado/Framework/Patterns/AbstractFactory/Factory.cs" />
       </list>
     </option>
   </component>
@@ -73,22 +36,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="GameDevelopmentTools" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
     </panes>
@@ -139,11 +93,12 @@
       <workItem from="1582533220131" duration="1369000" />
       <workItem from="1582780519853" duration="294000" />
       <workItem from="1582780938637" duration="334000" />
+      <workItem from="1582782273943" duration="444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1997000" />
+    <option name="totallyTimeSpent" value="2441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,10 +110,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="236" y="3" width="1348" height="1032" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25698757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -205,32 +159,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Tools/Pool.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/Factory.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/Factory.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/ObjectTypeAttribute.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Framework/Avocado/Framework/Patterns/AbstractFactory/Factory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1582780976264" expanded="true" signature="6:91" ph="..." />
-            <marker date="1582780976264" expanded="true" signature="146:1039" ph="{...}" />
-            <marker date="1582780976264" expanded="true" signature="192:1037" ph="{...}" />
-            <marker date="1582780976264" expanded="true" signature="318:739" ph="{...}" />
-            <marker date="1582780976264" expanded="true" signature="536:729" ph="{...}" />
-            <marker date="1582780976264" expanded="true" signature="647:715" ph="{...}" />
-            <marker date="1582780976264" expanded="true" signature="785:1031" ph="{...}" />
-            <marker date="1582780976264" expanded="true" signature="830:956" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Avocado/Framework/Patterns/AbstractFactory/ObjectTypeAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <marker date="1582780590378" expanded="true" signature="68:262" ph="{...}" />
-            <marker date="1582780590378" expanded="true" signature="118:260" ph="{...}" />
-            <marker date="1582780590378" expanded="true" signature="218:254" ph="{...}" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
