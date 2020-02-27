@@ -16,9 +16,9 @@
             </e>
           </e>
         </e>
-        <e p="Avocado.Tools.asmdef" t="Include" />
+        <e p="AvocadoFramework.asmdef" t="Include" />
       </e>
-      <e p="Avocado.Tools.csproj" t="IncludeRecursive" />
+      <e p="AvocadoFramework.csproj" t="IncludeRecursive" />
       <e p="GameDevelopmentTools.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
