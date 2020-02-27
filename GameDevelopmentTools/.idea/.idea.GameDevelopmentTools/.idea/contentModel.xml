@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Dimko\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Dimko\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GameDevelopmentTools.41961448.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\GameDevelopmentTools\GameDevelopmentTools" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="Avocado" t="Include">
+          <e p="Framework" t="Include">
+            <e p="Optimization" t="Include">
+              <e p="Pool.cs" t="Include" />
+            </e>
+            <e p="Patterns" t="Include">
+              <e p="AbstractFactory" t="Include">
+                <e p="Factory.cs" t="Include" />
+                <e p="ObjectTypeAttribute.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Avocado.Tools.asmdef" t="Include" />
+      </e>
+      <e p="Avocado.Tools.csproj" t="IncludeRecursive" />
+      <e p="GameDevelopmentTools.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
