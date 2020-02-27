@@ -1,0 +1,3 @@
+[submodule "GameDevelopmentTools/Assets"]
+	path = GameDevelopmentTools/Assets
+	url = https://github.com/dkoleev/GameDevelopmentFramework.git
