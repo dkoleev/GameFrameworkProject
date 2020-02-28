@@ -16,9 +16,15 @@
             </e>
           </e>
         </e>
+<<<<<<< Updated upstream
         <e p="AvocadoFramework.asmdef" t="Include" />
       </e>
       <e p="AvocadoFramework.csproj" t="IncludeRecursive" />
+=======
+        <e p="Avocado.Framework.asmdef" t="Include" />
+      </e>
+      <e p="Avocado.Framework.csproj" t="IncludeRecursive" />
+>>>>>>> Stashed changes
       <e p="GameDevelopmentTools.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
