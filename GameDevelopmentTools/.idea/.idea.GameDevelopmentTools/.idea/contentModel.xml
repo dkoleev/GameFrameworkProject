@@ -1,36 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Projects\GameFrameworkProject\GameDevelopmentTools" t="IncludeRecursive">
+    <e p="C:\Users\Dimko\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Dimko\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_GameDevelopmentTools.-1924872573.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\GameFrameworkProject\GameDevelopmentTools" t="IncludeRecursive">
       <e p="Assets" t="Include">
         <e p="Avocado" t="Include">
           <e p="Framework" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Events" t="Include">
+                <e p="Example.cs" t="Include" />
+                <e p="ExampleEvent.cs" t="Include" />
+              </e>
+              <e p="Factory" t="Include">
+                <e p="BaseClassA.cs" t="Include" />
+                <e p="ClassB.cs" t="Include" />
+                <e p="ClassC.cs" t="Include" />
+                <e p="IComponent.cs" t="Include" />
+                <e p="StructA.cs" t="Include" />
+                <e p="StructB.cs" t="Include" />
+                <e p="TestFactory.cs" t="Include" />
+              </e>
+              <e p="Pool" t="Include">
+                <e p="Enemy.cs" t="Include" />
+                <e p="TestPool.cs" t="Include" />
+              </e>
+            </e>
             <e p="Optimization" t="Include">
-              <e p="Pool.cs" t="Include" />
+              <e p="BatchUpdateSystem" t="Include">
+                <e p="BatchUpdateSystem.cs" t="Include" />
+                <e p="IBatchUpdated.cs" t="Include" />
+              </e>
+              <e p="Pool" t="Include">
+                <e p="IPoolable.cs" t="Include" />
+                <e p="Pool.cs" t="Include" />
+              </e>
             </e>
             <e p="Patterns" t="Include">
               <e p="AbstractFactory" t="Include">
                 <e p="Factory.cs" t="Include" />
                 <e p="ObjectTypeAttribute.cs" t="Include" />
               </e>
+              <e p="EventSystem" t="Include">
+                <e p="EventSystem.cs" t="Include" />
+              </e>
+              <e p="StateMachine" t="Include">
+                <e p="IState.cs" t="Include" />
+                <e p="StateMachine.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="Logger.cs" t="Include" />
             </e>
           </e>
         </e>
-<<<<<<< Updated upstream
         <e p="AvocadoFramework.asmdef" t="Include" />
       </e>
       <e p="AvocadoFramework.csproj" t="IncludeRecursive" />
-=======
-        <e p="Avocado.Framework.asmdef" t="Include" />
-      </e>
-      <e p="Avocado.Framework.csproj" t="IncludeRecursive" />
->>>>>>> Stashed changes
       <e p="GameDevelopmentTools.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
-      <e p="packages" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\user.DESKTOP-Q74G26V\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\user.DESKTOP-Q74G26V\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_GameDevelopmentTools.1950577892.00" t="ExcludeRecursive" />
   </component>
 </project>
