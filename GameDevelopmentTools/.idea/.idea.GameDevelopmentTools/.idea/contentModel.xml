@@ -6,26 +6,29 @@
     <e p="D:\Projects\GameFrameworkProject\GameDevelopmentTools" t="IncludeRecursive">
       <e p="Assets" t="Include">
         <e p="Avocado" t="Include">
-          <e p="Framework" t="Include">
-            <e p="Examples" t="Include">
-              <e p="Events" t="Include">
-                <e p="Example.cs" t="Include" />
-                <e p="ExampleEvent.cs" t="Include" />
-              </e>
-              <e p="Factory" t="Include">
-                <e p="BaseClassA.cs" t="Include" />
-                <e p="ClassB.cs" t="Include" />
-                <e p="ClassC.cs" t="Include" />
-                <e p="IComponent.cs" t="Include" />
-                <e p="StructA.cs" t="Include" />
-                <e p="StructB.cs" t="Include" />
-                <e p="TestFactory.cs" t="Include" />
-              </e>
-              <e p="Pool" t="Include">
-                <e p="Enemy.cs" t="Include" />
-                <e p="TestPool.cs" t="Include" />
-              </e>
+          <e p="Examples" t="Include">
+            <e p="Events" t="Include">
+              <e p="Example.cs" t="Include" />
+              <e p="ExampleEvent.cs" t="Include" />
             </e>
+            <e p="Factory" t="Include">
+              <e p="BaseClassA.cs" t="Include" />
+              <e p="ClassB.cs" t="Include" />
+              <e p="ClassC.cs" t="Include" />
+              <e p="IComponent.cs" t="Include" />
+              <e p="StructA.cs" t="Include" />
+              <e p="StructB.cs" t="Include" />
+              <e p="TestFactory.cs" t="Include" />
+            </e>
+            <e p="Pool" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="TestPool.cs" t="Include" />
+            </e>
+            <e p="Timer" t="Include">
+              <e p="TimerTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Framework" t="Include">
             <e p="Optimization" t="Include">
               <e p="BatchUpdateSystem" t="Include">
                 <e p="BatchUpdateSystem.cs" t="Include" />
@@ -41,8 +44,15 @@
                 <e p="Factory.cs" t="Include" />
                 <e p="ObjectTypeAttribute.cs" t="Include" />
               </e>
+              <e p="Command" t="Include">
+                <e p="ICommand.cs" t="Include" />
+                <e p="UndoCommand.cs" t="Include" />
+              </e>
               <e p="EventSystem" t="Include">
                 <e p="EventSystem.cs" t="Include" />
+              </e>
+              <e p="Singleton" t="Include">
+                <e p="Singleton.cs" t="Include" />
               </e>
               <e p="StateMachine" t="Include">
                 <e p="IState.cs" t="Include" />
@@ -50,7 +60,17 @@
               </e>
             </e>
             <e p="Utilities" t="Include">
+              <e p="ListExtensions.cs" t="Include" />
               <e p="Logger.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UnityToolbox" t="Include">
+            <e p="SingletonMonoBehavior.cs" t="Include" />
+            <e p="Timer" t="Include">
+              <e p="ITimeManager.cs" t="Include" />
+              <e p="TimeManager.cs" t="Include" />
+              <e p="TimeManagerLogWrapper.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
             </e>
           </e>
         </e>
