@@ -40,16 +40,25 @@
               </e>
             </e>
             <e p="Patterns" t="Include">
-              <e p="AbstractFactory" t="Include">
-                <e p="Factory.cs" t="Include" />
-                <e p="ObjectTypeAttribute.cs" t="Include" />
-              </e>
               <e p="Command" t="Include">
                 <e p="ICommand.cs" t="Include" />
                 <e p="UndoCommand.cs" t="Include" />
               </e>
               <e p="EventSystem" t="Include">
                 <e p="EventSystem.cs" t="Include" />
+              </e>
+              <e p="Factory" t="Include">
+                <e p="Simple" t="Include">
+                  <e p="ObjectTypeAttribute.cs" t="Include" />
+                  <e p="SimpleFactory" t="Include">
+                    <e p="Factory.cs" t="Include" />
+                    <e p="FactoryLogWrapper.cs" t="Include" />
+                    <e p="IFactory.cs" t="Include" />
+                  </e>
+                  <e p="SimpleFactoryStatic" t="Include">
+                    <e p="Factory.cs" t="Include" />
+                  </e>
+                </e>
               </e>
               <e p="Singleton" t="Include">
                 <e p="Singleton.cs" t="Include" />
