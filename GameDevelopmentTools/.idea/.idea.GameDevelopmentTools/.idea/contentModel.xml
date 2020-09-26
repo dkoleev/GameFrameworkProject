@@ -7,6 +7,7 @@
       <e p="Assets" t="Include">
         <e p="Avocado" t="Include">
           <e p="Examples" t="Include">
+            <e p="Avocado.Framework.Examples.asmdef" t="Include" />
             <e p="Events" t="Include">
               <e p="Example.cs" t="Include" />
               <e p="ExampleEvent.cs" t="Include" />
@@ -20,25 +21,33 @@
               <e p="StructB.cs" t="Include" />
               <e p="TestFactory.cs" t="Include" />
             </e>
+            <e p="Loader" t="Include">
+              <e p="ByTypeConverterExample.cs" t="Include" />
+              <e p="SimpleExample.cs" t="Include" />
+              <e p="TestLoader.cs" t="Include" />
+            </e>
             <e p="Pool" t="Include">
               <e p="Enemy.cs" t="Include" />
               <e p="TestPool.cs" t="Include" />
+            </e>
+            <e p="ServiceLocator" t="Include">
+              <e p="Analytics" t="Include">
+                <e p="AmplitudeAnalytics.cs" t="Include" />
+                <e p="AnalyticsProvider.cs" t="Include" />
+                <e p="CombineAnalytics.cs" t="Include" />
+                <e p="FirebaseAnalytics.cs" t="Include" />
+                <e p="IAnalytics.cs" t="Include" />
+                <e p="LoggedAnalytics.cs" t="Include" />
+                <e p="NullAnalytics.cs" t="Include" />
+              </e>
+              <e p="ServiceLocatorExample.cs" t="Include" />
             </e>
             <e p="Timer" t="Include">
               <e p="TimerTest.cs" t="Include" />
             </e>
           </e>
           <e p="Framework" t="Include">
-            <e p="Optimization" t="Include">
-              <e p="BatchUpdateSystem" t="Include">
-                <e p="BatchUpdateSystem.cs" t="Include" />
-                <e p="IBatchUpdated.cs" t="Include" />
-              </e>
-              <e p="Pool" t="Include">
-                <e p="IPoolable.cs" t="Include" />
-                <e p="Pool.cs" t="Include" />
-              </e>
-            </e>
+            <e p="Avocado.Framework.asmdef" t="Include" />
             <e p="Patterns" t="Include">
               <e p="Command" t="Include">
                 <e p="ICommand.cs" t="Include" />
@@ -60,6 +69,10 @@
                   </e>
                 </e>
               </e>
+              <e p="ServiceLocator" t="Include">
+                <e p="IService.cs" t="Include" />
+                <e p="ServiceLocator.cs" t="Include" />
+              </e>
               <e p="Singleton" t="Include">
                 <e p="Singleton.cs" t="Include" />
               </e>
@@ -70,10 +83,28 @@
             </e>
             <e p="Utilities" t="Include">
               <e p="ListExtensions.cs" t="Include" />
-              <e p="Logger.cs" t="Include" />
             </e>
           </e>
           <e p="UnityToolbox" t="Include">
+            <e p="Avocado.UnityToolbox.asmdef" t="Include" />
+            <e p="Loader" t="Include">
+              <e p="ILoader.cs" t="Include" />
+              <e p="Json" t="Include">
+                <e p="JsonLoader.cs" t="Include" />
+                <e p="TypeBaseConverter.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Logger.cs" t="Include" />
+            <e p="Optimization" t="Include">
+              <e p="BatchUpdateSystem" t="Include">
+                <e p="BatchUpdateSystem.cs" t="Include" />
+                <e p="IBatchUpdated.cs" t="Include" />
+              </e>
+              <e p="Pool" t="Include">
+                <e p="IPoolable.cs" t="Include" />
+                <e p="Pool.cs" t="Include" />
+              </e>
+            </e>
             <e p="SingletonMonoBehavior.cs" t="Include" />
             <e p="Timer" t="Include">
               <e p="ITimeManager.cs" t="Include" />
@@ -83,9 +114,10 @@
             </e>
           </e>
         </e>
-        <e p="AvocadoFramework.asmdef" t="Include" />
       </e>
-      <e p="AvocadoFramework.csproj" t="IncludeRecursive" />
+      <e p="Avocado.UnityToolbox.csproj" t="IncludeRecursive" />
+      <e p="Examples.csproj" t="IncludeRecursive" />
+      <e p="Framework.csproj" t="IncludeRecursive" />
       <e p="GameDevelopmentTools.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
