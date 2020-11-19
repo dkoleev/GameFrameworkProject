@@ -57,17 +57,8 @@
                 <e p="EventSystem.cs" t="Include" />
               </e>
               <e p="Factory" t="Include">
-                <e p="Simple" t="Include">
-                  <e p="ObjectTypeAttribute.cs" t="Include" />
-                  <e p="SimpleFactory" t="Include">
-                    <e p="Factory.cs" t="Include" />
-                    <e p="FactoryLogWrapper.cs" t="Include" />
-                    <e p="IFactory.cs" t="Include" />
-                  </e>
-                  <e p="SimpleFactoryStatic" t="Include">
-                    <e p="Factory.cs" t="Include" />
-                  </e>
-                </e>
+                <e p="Factory.cs" t="Include" />
+                <e p="ObjectTypeAttribute.cs" t="Include" />
               </e>
               <e p="ServiceLocator" t="Include">
                 <e p="IService.cs" t="Include" />
