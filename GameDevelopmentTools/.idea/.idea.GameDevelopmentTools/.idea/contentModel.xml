@@ -14,6 +14,9 @@
               <e p="SpreadSheetLoader.cs" t="Include" />
               <e p="SpreadsheetParserBase.cs" t="Include" />
             </e>
+            <e p="Utils" t="Include">
+              <e p="ResourcesUtils.cs" t="Include" />
+            </e>
           </e>
           <e p="Examples" t="Include">
             <e p="Avocado.Framework.Examples.asmdef" t="Include" />
