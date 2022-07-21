@@ -89,12 +89,17 @@
                 <e p="StateMachine.cs" t="Include" />
               </e>
             </e>
-            <e p="Utilities" t="Include">
-              <e p="ListExtensions.cs" t="Include" />
-            </e>
           </e>
           <e p="UnityToolbox" t="Include">
             <e p="Avocado.UnityToolbox.asmdef" t="Include" />
+            <e p="DataTypes" t="Include">
+              <e p="GenericDictionary.cs" t="Include" />
+              <e p="IWeighed.cs" t="Include" />
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="IListExtensions.cs" t="Include" />
+              <e p="WeighedExtension.cs" t="Include" />
+            </e>
             <e p="Loader" t="Include">
               <e p="ILoader.cs" t="Include" />
               <e p="Json" t="Include">
