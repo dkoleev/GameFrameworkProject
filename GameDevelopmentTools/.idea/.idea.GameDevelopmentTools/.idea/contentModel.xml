@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Dimko\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Dimko\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_GameDevelopmentTools.-1924872573.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\GameFrameworkProject\GameDevelopmentTools" t="IncludeRecursive">
+    <e p="C:\Users\Dimko\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_GameDevelopmentTools.-1505355742.00" t="ExcludeRecursive" />
+    <e p="E:\Projects\GameFrameworkProject\GameDevelopmentTools" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Avocado" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Avocado.Framework.Editor.asmdef" t="Include" />
+            <e p="GoogleSheets" t="Include">
+              <e p="ISpreadsheetParser.cs" t="Include" />
+              <e p="SpreadSheetLoader.cs" t="Include" />
+              <e p="SpreadsheetParserBase.cs" t="Include" />
+            </e>
+          </e>
           <e p="Examples" t="Include">
             <e p="Avocado.Framework.Examples.asmdef" t="Include" />
             <e p="Events" t="Include">
@@ -17,12 +26,20 @@
               <e p="ClassB.cs" t="Include" />
               <e p="ClassC.cs" t="Include" />
               <e p="IComponent.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="config.json" t="Include" />
+              </e>
               <e p="StructA.cs" t="Include" />
               <e p="StructB.cs" t="Include" />
               <e p="TestFactory.cs" t="Include" />
             </e>
             <e p="Loader" t="Include">
               <e p="ByTypeConverterExample.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="TestLoader" t="Include">
+                  <e p="config.json" t="Include" />
+                </e>
+              </e>
               <e p="SimpleExample.cs" t="Include" />
               <e p="TestLoader.cs" t="Include" />
             </e>
@@ -105,7 +122,9 @@
             </e>
           </e>
         </e>
+        <e p="package.json" t="Include" />
       </e>
+      <e p="Avocado.Framework.Editor.csproj" t="IncludeRecursive" />
       <e p="Avocado.UnityToolbox.csproj" t="IncludeRecursive" />
       <e p="Examples.csproj" t="IncludeRecursive" />
       <e p="Framework.csproj" t="IncludeRecursive" />
