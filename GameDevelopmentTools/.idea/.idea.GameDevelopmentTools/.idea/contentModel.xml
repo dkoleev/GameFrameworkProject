@@ -8,7 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Avocado" t="Include">
           <e p="Editor" t="Include">
-            <e p="Avocado.Framework.Editor.asmdef" t="Include" />
+            <e p="Avocado.Toolbox.Editor.asmdef" t="Include" />
+            <e p="DataTypes" t="Include">
+              <e p="GenericDictionaryPropertyDrawer.cs" t="Include" />
+            </e>
             <e p="GoogleSheets" t="Include">
               <e p="ISpreadsheetParser.cs" t="Include" />
               <e p="SpreadSheetLoader.cs" t="Include" />
@@ -19,11 +22,7 @@
             </e>
           </e>
           <e p="Examples" t="Include">
-            <e p="Avocado.Framework.Examples.asmdef" t="Include" />
-            <e p="Events" t="Include">
-              <e p="Example.cs" t="Include" />
-              <e p="ExampleEvent.cs" t="Include" />
-            </e>
+            <e p="Avocado.Toolbox.Examples.asmdef" t="Include" />
             <e p="Factory" t="Include">
               <e p="BaseClassA.cs" t="Include" />
               <e p="ClassB.cs" t="Include" />
@@ -50,51 +49,9 @@
               <e p="Enemy.cs" t="Include" />
               <e p="TestPool.cs" t="Include" />
             </e>
-            <e p="ServiceLocator" t="Include">
-              <e p="Analytics" t="Include">
-                <e p="AmplitudeAnalytics.cs" t="Include" />
-                <e p="AnalyticsProvider.cs" t="Include" />
-                <e p="CombineAnalytics.cs" t="Include" />
-                <e p="FirebaseAnalytics.cs" t="Include" />
-                <e p="IAnalytics.cs" t="Include" />
-                <e p="LoggedAnalytics.cs" t="Include" />
-                <e p="NullAnalytics.cs" t="Include" />
-              </e>
-              <e p="ServiceLocatorExample.cs" t="Include" />
-            </e>
-            <e p="Timer" t="Include">
-              <e p="TimerTest.cs" t="Include" />
-            </e>
           </e>
-          <e p="Framework" t="Include">
-            <e p="Avocado.Framework.asmdef" t="Include" />
-            <e p="Patterns" t="Include">
-              <e p="Command" t="Include">
-                <e p="ICommand.cs" t="Include" />
-                <e p="UndoCommand.cs" t="Include" />
-              </e>
-              <e p="EventSystem" t="Include">
-                <e p="EventSystem.cs" t="Include" />
-              </e>
-              <e p="Factory" t="Include">
-                <e p="Factory.cs" t="Include" />
-                <e p="ObjectTypeAttribute.cs" t="Include" />
-              </e>
-              <e p="ServiceLocator" t="Include">
-                <e p="IService.cs" t="Include" />
-                <e p="ServiceLocator.cs" t="Include" />
-              </e>
-              <e p="Singleton" t="Include">
-                <e p="Singleton.cs" t="Include" />
-              </e>
-              <e p="StateMachine" t="Include">
-                <e p="IState.cs" t="Include" />
-                <e p="StateMachine.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="UnityToolbox" t="Include">
-            <e p="Avocado.UnityToolbox.asmdef" t="Include" />
+          <e p="Toolbox" t="Include">
+            <e p="Avocado.Toolbox.asmdef" t="Include" />
             <e p="DataTypes" t="Include">
               <e p="GenericDictionary.cs" t="Include" />
               <e p="IWeighed.cs" t="Include" />
@@ -110,7 +67,9 @@
                 <e p="TypeBaseConverter.cs" t="Include" />
               </e>
             </e>
-            <e p="Logger.cs" t="Include" />
+            <e p="Logger" t="Include">
+              <e p="GameLogger.cs" t="Include" />
+            </e>
             <e p="Optimization" t="Include">
               <e p="BatchUpdateSystem" t="Include">
                 <e p="BatchUpdateSystem.cs" t="Include" />
@@ -121,21 +80,27 @@
                 <e p="Pool.cs" t="Include" />
               </e>
             </e>
-            <e p="SingletonMonoBehavior.cs" t="Include" />
-            <e p="Timer" t="Include">
-              <e p="ITimeManager.cs" t="Include" />
-              <e p="TimeManager.cs" t="Include" />
-              <e p="TimeManagerLogWrapper.cs" t="Include" />
-              <e p="Timer.cs" t="Include" />
+            <e p="Patterns" t="Include">
+              <e p="Command" t="Include">
+                <e p="ICommand.cs" t="Include" />
+                <e p="UndoCommand.cs" t="Include" />
+              </e>
+              <e p="Factory" t="Include">
+                <e p="Factory.cs" t="Include" />
+                <e p="ObjectTypeAttribute.cs" t="Include" />
+              </e>
+              <e p="StateMachine" t="Include">
+                <e p="IState.cs" t="Include" />
+                <e p="StateMachine.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
         <e p="package.json" t="Include" />
       </e>
-      <e p="Avocado.Framework.Editor.csproj" t="IncludeRecursive" />
-      <e p="Avocado.UnityToolbox.csproj" t="IncludeRecursive" />
-      <e p="Examples.csproj" t="IncludeRecursive" />
-      <e p="Framework.csproj" t="IncludeRecursive" />
+      <e p="Avocado.Toolbox.csproj" t="IncludeRecursive" />
+      <e p="Avocado.Toolbox.Editor.csproj" t="IncludeRecursive" />
+      <e p="Avocado.Toolbox.Examples.csproj" t="IncludeRecursive" />
       <e p="GameDevelopmentTools.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
