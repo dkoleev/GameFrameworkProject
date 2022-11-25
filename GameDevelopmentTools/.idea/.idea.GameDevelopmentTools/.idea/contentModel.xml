@@ -79,6 +79,7 @@
                 <e p="IPoolable.cs" t="Include" />
                 <e p="Pool.cs" t="Include" />
               </e>
+              <e p="SimpleMonoPool.cs" t="Include" />
             </e>
             <e p="Patterns" t="Include">
               <e p="Command" t="Include">
@@ -93,6 +94,13 @@
                 <e p="IState.cs" t="Include" />
                 <e p="StateMachine.cs" t="Include" />
               </e>
+            </e>
+            <e p="Utils" t="Include">
+              <e p="AndroidMemoryInfo.cs" t="Include" />
+              <e p="Converters.cs" t="Include" />
+              <e p="TargetFrameRate.cs" t="Include" />
+              <e p="TimeUtils.cs" t="Include" />
+              <e p="WorldTimeAPI.cs" t="Include" />
             </e>
           </e>
         </e>
